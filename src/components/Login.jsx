@@ -21,10 +21,10 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-500 to-black">
       <form
         onSubmit={handleLogin}
-        className="bg-black p-10 rounded-xl shadow-md w-full max-w-md transition-all duration-300"
+        className="bg-white p-10 rounded-xl shadow-md w-full max-w-md transition-all duration-300"
         autoComplete="off"
       >
         <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">
