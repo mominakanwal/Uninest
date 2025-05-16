@@ -315,7 +315,7 @@ Provide 5 nearby accommodation options **strictly within this radius of universi
                 : " text-zinc-200 "
             }`}
           >
-            Search
+            Saved
           </Button>
         </div>
 
@@ -579,7 +579,7 @@ Provide 5 nearby accommodation options **strictly within this radius of universi
           </>
         ) : (
           <div>
-            <h2 className="text-2xl font-bold mb-6 text-center">
+            <h2 className="text-2xl font-bold mb-6 text-center text-white">
               Saved Properties
             </h2>
             {savedListings.length === 0 ? (
