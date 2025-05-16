@@ -24,7 +24,7 @@ const Login = () => {
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-500 to-black">
       <form
         onSubmit={handleLogin}
-        className="bg-blue-200 p-10 rounded-xl shadow-md w-full max-w-md transition-all duration-300"
+        className="bg-blue-100 p-10 rounded-xl shadow-md w-full max-w-md transition-all duration-300"
         autoComplete="off"
       >
         <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">

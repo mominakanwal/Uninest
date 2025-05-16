@@ -39,7 +39,7 @@ const Signup = () => {
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-black to-blue-400">
       <form
         onSubmit={handleSignup}
-        className="bg-blue-200 p-10 rounded-xl shadow-md w-full max-w-lg transition-all duration-300"
+        className="bg-blue-100 p-10 rounded-xl shadow-md w-full max-w-lg transition-all duration-300"
         autoComplete="off"
       >
         <h2 className="text-3xl font-bold text-center text-blue-600 mb-2">
@@ -104,7 +104,7 @@ const Signup = () => {
           value={country}
           onChange={(e) => setCountry(e.target.value)}
           required
-          className="border border-gray-300 p-3 rounded-md w-full mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all bg-blue-200"
+          className="border border-gray-300 p-3 rounded-md w-full mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all bg-blue-100"
         >
           <option value="">Select Country...</option>
           {countries.map((c) => (
